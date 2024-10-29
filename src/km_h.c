@@ -12,7 +12,7 @@ int main(){
 
     printf("Digite o KM final: \n");
     scanf("%d", &km2);
-
+ 
     printf("Digite o tempo inicial: \n");
     scanf("%d", &tmp1);
 
