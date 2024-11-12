@@ -71,3 +71,11 @@ void reajuste(float salario) {
         printf("O salario antigo é %f, e foi reajustado em 5%. O valor de aumento é %f e novo salário é %f\n", salario, valor_aumento, novo_salario);
     }
 }
+
+int notas(int n1, int n2, int n3, int n4) {
+    int media;
+
+    media = (n1 + n2 + n3 + n4) / 4;
+
+    return media;
+}
